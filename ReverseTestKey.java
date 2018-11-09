@@ -1,5 +1,5 @@
-class Solution {
-    public static int reverse(int x) {   
+public class ReverseTestKey{
+		public static int reverse(int x) {   
 		int result = 0;
 		long check = 0;
 		while(x % 10 !=0 || x/10 != 0) {
@@ -12,7 +12,5 @@ class Solution {
 		}
 		return result;
 	}
-
 }
-
-
+}
